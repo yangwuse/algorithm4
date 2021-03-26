@@ -18,10 +18,11 @@ public class BinarySearch {
   }
 
   public static void main(String[] args) {
-    int[] a = new int[]{1, 2, 3, 6, 7, 8, 30};
-    int index = rank(6, a);
-    System.out.println(index);
-    index = rank(4, a);
-    System.out.println(index);
+//    int N = Integer.parseInt(args[1]);
+//    int key = Integer.parseInt(args[1] + 1);
+//    int[] a = new int[N];
+//    int index = rank(key, a);
+//    System.out.println(index);
+    System.out.println(args[0] + " " + args[1]);
   }
 }
